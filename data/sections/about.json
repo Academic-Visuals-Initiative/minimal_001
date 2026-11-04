@@ -1,0 +1,14 @@
+{
+  "id": "about",
+  "number": "01",
+  "label": "About",
+  "heading": "A short profile.",
+  "intro": "Add an intro line",
+  "add_content_to_page": [
+    {
+      "add_paragraph": {
+        "text": "I study how carbon, nutrients and contaminants move through soils, sediments and water. Most projects begin with a measurement problem — a sensor that drifts, a storm that arrives between samples, a core that mixes two seasons — and end with a method someone else can repeat.\n\nBefore Northfield I worked on catchment biogeochemistry in Bristol and Uppsala. The group here combines field campaigns, long-term sensors and laboratory work; the common thread is a preference for data with a visible history."
+      }
+    }
+  ]
+}

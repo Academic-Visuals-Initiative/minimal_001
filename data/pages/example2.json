@@ -1,0 +1,439 @@
+{
+  "title": "Methods",
+  "description": "How the lab measures carbon in upland streams.",
+  "layout": "columns",
+  "add_content_to_page": [
+    {
+      "add_paragraph": {
+        "heading": "A field guide to the media elements",
+        "text": "This area is a living reference for the content creation system. It uses every image and gallery element the shared engine can draw — single plates, side-by-side layouts, timed slideshows, grid and masonry galleries — so a new area can be written by copying the pattern it needs.\n\nPicture cards, people, 3D models, embedded media and publications now have their own page: {Picture cards|@research.picture_cards}.\n\nPictures may be written as a **bare filename** (looked up in this area's own image folder) or as a **path of your own** from the page root. Both are shown below."
+      }
+    },
+    "// -------------------------------------- SINGLE IMAGE — CENTRED (BARE FILENAME) -------------------------------------- ",
+    {
+      "add_image": {
+        "image_path": "soil_microbiome_and_carbon_sequestration.jpg",
+        "image_alt": "",
+        "image_caption": "A single centred plate. A bare filename is read from this area's own image folder.",
+        "image_credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_image": {
+        "column": "right",
+        "image_path": "soil_microbiome_and_carbon_sequestration.jpg",
+        "image_alt": "",
+        "image_caption": "A single centred plate."
+      }
+    },
+    {
+      "add_paragraph": {
+        "heading": "Add a single columned paragraph with a title",
+        "text": "The default paragraph runs the full width of the row with justified text. A blank line starts a new paragraph; a single newline starts a new line. add_paragraph may be a plain string, an object with a title and a layout, or an array of either. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+        "column": "left"
+      }
+    },
+    "// -------------------------------------- SINGLE IMAGE — LEFT, WITH TEXT -------------------------------------- ",
+    {
+      "add_image": {
+        "image_path": "7.gif",
+        "image_alt": "",
+        "align": "left",
+        "image_caption": "Left-aligned — the text flows beside it on the right.",
+        "content_to_show_on_side_of_the_image_when_aligned": "Set align image to right or left to left and give the photo a content to show on side of the image when aligned field and the two share one band: the plate takes about half the column on desktop, and below tablet it stacks above the text. The caption and the plate's border stay exactly as a centred picture."
+      }
+    },
+    "// -------------------------------------- SINGLE IMAGE — RIGHT, WITH TEXT -------------------------------------- ",
+    {
+      "add_image": {
+        "image_path": "8.gif",
+        "image_alt": "",
+        "align": "right",
+        "image_caption": "Right-aligned — the text flows beside it on the left.",
+        "content_to_show_on_side_of_the_image_when_aligned": "The mirror image of the previous plate: align_image_to_right_or_left is right, so the picture is pushed across and the words fill the other half. On mobile the plate still stands first."
+      }
+    },
+    "// -------------------------------------- SINGLE IMAGE — PLAIN (NO LIGHTBOX) -------------------------------------- ",
+    {
+      "add_image": {
+        "image_path": "assets/img/ph-03.jpg",
+        "image_alt": "",
+        "image_caption": "Written `zoom_on: false`, this picture is simply a picture - nothing to click.",
+        "zoom_on": false
+      }
+    },
+    "// -------------------------------------- SLIDESHOW — CENTRED, TIMED -------------------------------------- ",
+    {
+      "add_slideshow": {
+        "heading": "Slideshow — centred, timed",
+        "rotation_time_milliseconds": 4000,
+        "images": [
+          {
+            "image_path": "assets/img/ph-10.jpg",
+            "image_alt": "",
+            "image_caption": "The dedicated `add_slideshow` element, centred by default.",
+            "image_credit": "Google nanobanana"
+          },
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_alt": "",
+            "image_caption": "`time_interval_of_images_in_slideshow` sets the auto-advance time in milliseconds."
+          },
+          {
+            "image_path": "assets/img/ph-14.jpg",
+            "image_alt": "",
+            "image_caption": "The caption and credit travel with each slide."
+          }
+        ]
+      }
+    },
+    {
+      "add_slideshow": {
+        "column": "right",
+        "heading": "The route",
+        "images": [
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_alt": "",
+            "image_caption": "`time_interval_of_images_in_slideshow` sets the auto-advance time in milliseconds."
+          },
+          {
+            "image_path": "assets/img/ph-14.jpg",
+            "image_alt": "",
+            "image_caption": "The caption and credit travel with each slide."
+          }
+        ]
+      }
+    },
+    {
+      "add_slideshow": [
+        {
+          "image_path": "coast.jpg"
+        }
+      ],
+      "column": "left"
+    },
+    "// -------------------------------------- SLIDESHOW — RIGHT, WITH TEXT -------------------------------------- ",
+    {
+      "add_slideshow": {
+        "align": "right",
+        "rotation_time_milliseconds": 3500,
+        "content_to_show_on_side_of_the_slideshow_when_aligned": "This slideshow is pushed to the right with its text on the left. It advances every 3.5 seconds.",
+        "images": [
+          {
+            "image_path": "assets/img/ph-15.jpg",
+            "image_alt": "",
+            "image_caption": "Slide one.",
+            "image_credit": "Google nanobanana"
+          },
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Slide two."
+          },
+          {
+            "image_path": "assets/img/ph-01.jpg",
+            "image_alt": "",
+            "image_caption": "Slide three."
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 4:5 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Gallery — grid, 4:5 crop",
+        "layout": "grid",
+        "size": "4:5",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "assets/img/ph-01.jpg",
+            "image_alt": "",
+            "image_caption": "Every photo is cropped to the same 4:5 shape.",
+            "image_credit": "Google nanobanana"
+          },
+          {
+            "image_path": "assets/img/ph-02.jpg",
+            "image_alt": "",
+            "image_caption": "Rows stay even; the grid keeps its gutter."
+          },
+          {
+            "image_path": "assets/img/ph-03.jpg",
+            "image_alt": "",
+            "image_caption": "Clicking any photo opens the whole set in the lightbox."
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- ADD FULL SIZE IMAGE WITH GALLERY 4:5 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "ADD FULL SIZE IMAGE WITH GALLERY 4:5 CROP",
+        "size": "4:5",
+        "images": [
+          {
+            "image_path": "assets/img/ph-01.jpg",
+            "image_alt": "",
+            "image_caption": "Every photo is cropped to the same 4:5 shape."
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 16:9 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Restoration timeline (16:9 grid)",
+        "size": "16:9",
+        "columns": 2,
+        "images": [
+          {
+            "image_path": "assets/img/ph-02.jpg",
+            "image_alt": "",
+            "image_caption": "Year 1: initial propagule planting"
+          },
+          {
+            "image_path": "assets/img/ph-15.jpg",
+            "image_alt": "",
+            "image_caption": "Year 3: canopy closure beginning"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 9:16 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Monitoring methods (tall 9:16 grid)",
+        "size": "9:16",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "1.gif",
+            "image_alt": "",
+            "image_caption": "Drone mapping flight path"
+          },
+          {
+            "image_path": "2.gif",
+            "image_alt": "",
+            "image_caption": "Sediment coring for carbon dating"
+          },
+          {
+            "image_path": "3.gif",
+            "image_alt": "",
+            "image_caption": "Tidal water chemistry sampling"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 3:2 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Monitoring methods (tall 3:2 grid)",
+        "size": "3:2",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Drone mapping flight path"
+          },
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_alt": "",
+            "image_caption": "Sediment coring for carbon dating"
+          },
+          {
+            "image_path": "assets/img/ph-14.jpg",
+            "image_alt": "",
+            "image_caption": "Tidal water chemistry sampling"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 4:3 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Monitoring methods (tall 4:3 grid)",
+        "size": "4:3",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Drone mapping flight path"
+          },
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_alt": "",
+            "image_caption": "Sediment coring for carbon dating"
+          },
+          {
+            "image_path": "assets/img/ph-14.jpg",
+            "image_alt": "",
+            "image_caption": "Tidal water chemistry sampling"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 3:4 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Monitoring network (3:4 grid)",
+        "size": "3:4",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "assets/img/ph-03.jpg",
+            "image_alt": "",
+            "image_caption": "Urban baseline: PM2.5/PM10 continuous"
+          },
+          {
+            "image_path": "assets/img/ph-10.jpg",
+            "image_alt": "",
+            "image_caption": "Coastal receptor: deposition collector"
+          },
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Rural background: isotopic sampling"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, 1:1 CROP -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Species surveys (1:1 grid)",
+        "size": "1:1",
+        "columns": 4,
+        "images": [
+          {
+            "image_path": "assets/img/ph-03.jpg",
+            "image_alt": "",
+            "image_caption": "Breeding bird point counts"
+          },
+          {
+            "image_path": "assets/img/ph-07.jpg",
+            "image_alt": "",
+            "image_caption": "Pollinator pan traps"
+          },
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_alt": "",
+            "image_caption": "Mammal movement cameras"
+          },
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Rural background: isotopic sampling"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — GRID, NATURAL IMAGE SIZE -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Gallery — grid, natural shape",
+        "layout": "grid",
+        "size": "natural",
+        "columns": 2,
+        "images": [
+          {
+            "image_path": "assets/img/ph-08.jpg",
+            "image_alt": "",
+            "image_caption": "`ratio: natural` keeps each photo's own shape."
+          },
+          {
+            "image_path": "assets/img/ph-09.jpg",
+            "image_alt": "",
+            "image_caption": "The row grows with the tallest photo."
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — MASONRY LAYOUT -------------------------------------- ",
+    {
+      "add_gallery": {
+        "heading": "Gallery — masonry",
+        "layout": "masonry",
+        "columns": 3,
+        "images": [
+          {
+            "image_path": "assets/img/ph-08.jpg",
+            "image_alt": "",
+            "image_caption": "Bioswale corridor between residential blocks"
+          },
+          {
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "image_caption": "Connected green roof network"
+          },
+          {
+            "image_path": "assets/img/ph-15.jpg",
+            "image_alt": "",
+            "image_caption": "Urban riparian restoration"
+          },
+          {
+            "image_path": "assets/img/ph-02.jpg",
+            "image_alt": "",
+            "image_caption": "Pollinator movement corridor"
+          }
+        ]
+      }
+    },
+    "// -------------------------------------- GALLERY — BARE LIST WITH DEFAULT 4:5 CROP WITHOUT TITLE -------------------------------------- ",
+    {
+      "add_gallery": [
+        {
+          "image_path": "assets/img/ph-04.png",
+          "image_alt": "",
+          "image_caption": "A bare list of photos is a gallery too."
+        },
+        {
+          "image_path": "assets/img/ph-07.jpg",
+          "image_alt": "",
+          "image_caption": "Everything else uses the defaults — grid, 4:5."
+        }
+      ]
+    },
+    "// -------------------------------------- GALLERY — GROUP OF GALLERIES -------------------------------------- ",
+    {
+      "add_gallery": [
+        {
+          "heading": "Group A — grid, square",
+          "size": "1:1",
+          "columns": 2,
+          "images": [
+            {
+              "image_path": "assets/img/ph-08.jpg",
+              "image_alt": "",
+              "image_caption": "The first gallery in the group."
+            },
+            {
+              "image_path": "assets/img/ph-09.jpg",
+              "image_alt": "",
+              "image_caption": "Squared to 1:1."
+            }
+          ]
+        },
+        {
+          "heading": "Group B — masonry",
+          "layout": "masonry",
+          "columns": 2,
+          "images": [
+            {
+              "image_path": "assets/img/ph-10.jpg",
+              "image_alt": "",
+              "image_caption": "The second gallery, packed."
+            },
+            {
+              "image_path": "assets/img/ph-13.jpg",
+              "image_alt": "",
+              "image_caption": "Its own layout and ratio."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
