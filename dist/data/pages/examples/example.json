@@ -1,0 +1,1216 @@
+{
+  "title": "Methods",
+  "description": "How the lab measures carbon in upland streams.",
+  "layout": "columns",
+  "add_content_to_page": [
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣. How to add headings"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD HEADING LEVELS -------------------------------------- ",
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "Heading level 1 — Add a large heading"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "Heading level 1 — Add a large heading right",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "Heading level 1 — Add a large heading left",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Heading level 1 — Add a large heading"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Heading level 1 — Add a large heading right",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Heading level 1 — Add a large heading left",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Heading level 1 — Add a large heading"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Heading level 1 — Add a large heading right",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Heading level 1 — Add a large heading left",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣. How to add paragraphs with different layouts"
+      }
+    },
+    "// -------------------------------------- HOW TO ADDPARAGRAPHS -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "heading": "Add a single columned paragraph with a title",
+        "text": "The default paragraph runs the full 900px reading column with justified text. A blank line starts a new paragraph; a single newline starts a new line. add_paragraph may be a plain string, an object with a title and a layout, or an array of either. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum."
+      }
+    },
+    {
+      "add_paragraph": {
+        "heading": "Add a two-column paragraph with a title",
+        "layout": "two-col",
+        "text": "Add layout_of_the_paragraph: two-col to flow the text across two balanced columns on desktop. On mobile it collapses to one column. Use it for longer passages, comparisons, or anything that reads well in a narrower measure. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum. \n\nThe formatting rules are the same as for regular paragraphs. Learn about them in next section."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "3️⃣. How to add paragraphs with headings"
+      }
+    },
+    "// -------------------------------------- ADDING HEADINGS TO PARAGRAPHS, REMOVE THE TITLE OF THE PARAGRAPH TO AUTAMATICALLY MAKE THE HEADING AS THE PARAGRAPH LABEL -------------------------------------- ",
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Add a single column paragraph with a heading"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "The default paragraph runs the full 900px reading column with justified text. A **blank line** starts a new paragraph; a single newline starts a new line. `add_paragraph` may be a plain string, an object with a title and a layout, or an array of either. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Add a two-column paragraph with a heading"
+      }
+    },
+    {
+      "add_paragraph": {
+        "layout": "two-col",
+        "text": "Add layout_of_the_paragraph: two-col to flow the text across two balanced columns on desktop. On mobile it collapses to one column. Use it for longer passages, comparisons, or anything that reads well in a narrower measure. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum. \n\nThe formatting rules are the same as for regular paragraphs. Learn about them in next section."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "4️⃣. How to add lists and list styles"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD LISTS AND LIST STYLES(BULLET LIST IS DEFAULT)-------------------------------------- ",
+    {
+      "add_list": {
+        "heading": "ADD a bullet list",
+        "add_items_to_list": [
+          "Soil coring",
+          "DNA sequencing",
+          "Gas-flux sensors"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Add a numbered list",
+        "style": "number",
+        "add_items_to_list": [
+          "Collect the core",
+          "Label and store it",
+          "Sequence the sample"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "5️⃣. How to add lists with different levels"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD LISTS WITH DIFFERENT LEVELS)-------------------------------------- ",
+    {
+      "add_list": {
+        "heading": "Add a list with different levels",
+        "add_items_to_list": [
+          {
+            "list_item": "Field work",
+            "level": 1
+          },
+          {
+            "list_item": "Laboratory analysis",
+            "level": 1
+          },
+          {
+            "list_item": "DNA extraction",
+            "level": 2
+          },
+          {
+            "list_item": "Gas chromatography",
+            "level": 2
+          },
+          {
+            "list_item": "Modelling",
+            "level": 2
+          },
+          {
+            "list_item": "Calibration",
+            "level": 3
+          },
+          {
+            "list_item": "Validation",
+            "level": 3
+          },
+          {
+            "list_item": "Writing",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "6️⃣. How to add lists with mixed styles"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD LIST WITH MIXEDSTYLES -------------------------------------- ",
+    {
+      "add_list": {
+        "heading": "Add a list with different levels and styles (example:number, bullet, check)",
+        "list_level_1_style": "number",
+        "list_level_2_style": "bullet",
+        "list_level_3_style": "check",
+        "list_level_4_style": "arrow",
+        "add_items_to_list": [
+          {
+            "list_item": "Discovery",
+            "level": 1
+          },
+          {
+            "list_item": "Fieldwork",
+            "level": 1
+          },
+          {
+            "list_item": "Transects",
+            "level": 2
+          },
+          {
+            "list_item": "Sediment traps",
+            "level": 2
+          },
+          {
+            "list_item": "Sites",
+            "level": 3
+          },
+          {
+            "list_item": "Sites",
+            "level": 4
+          },
+          {
+            "list_item": "Analysis",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "7️⃣. Available list styles"
+      }
+    },
+    "// -------------------------------------- AVAILABLE LIST STYLES -------------------------------------- ",
+    {
+      "add_list": {
+        "heading": "Roman numerals",
+        "style": "roman",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Upper roman",
+        "style": "roman-upper",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Letters",
+        "style": "alpha",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Upper letters",
+        "style": "alpha-upper",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Square bullets",
+        "style": "square",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Circle bullets",
+        "style": "circle",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Dash markers",
+        "style": "dash",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Check marks",
+        "style": "check",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Arrow markers",
+        "style": "arrow",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Inline chips",
+        "style": "inline",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "No markers",
+        "style": "none",
+        "add_items_to_list": [
+          "Discovery"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "8️⃣. How to add text formatting to the content"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD TEXT FORMATTING TO THE CONTENT -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "heading": "Where the marks work",
+        "text": "The same friendly markup works in paragraphs, list items, captions, cards, callouts, tables and quotes — anywhere the content system prints words. Each line below shows the mark in plain text, then what it draws."
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Marks and what they draw",
+        "add_items_to_list": [
+          "\\*\\*bold\\*\\* → **bold text**",
+          "\\*italic\\* → *italic text*",
+          "\\*\\*\\*bold italic\\*\\*\\* → ***bold italic text***",
+          "\\+\\+underline\\+\\+ → ++underlined text++",
+          "\\~\\~strikethrough\\~\\~ → ~~struck-through text~~",
+          "\\=\\=highlight\\=\\= → ==highlighted text==",
+          "\\^superscript\\^ → ^superscript text^",
+          "\\~subscript\\~ → ~subscript text~",
+          "\\`code\\` → `code sample`",
+          "\\{label|url\\} → {a link|https://example.com}",
+          "\\{label|@team\\} → {the team|@team}",
+          "\\\\n → a new line",
+          "\\\\n\\\\n → a new paragraph (a blank line)"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "9️⃣. How to add links to the content"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD LINKS TO THE CONTENT -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "heading": "Where to find the links for external and internal pages",
+        "text": "You can use simple link like wwww.example.com for external websites.  If you want to link to internal pages, you can use the link names that are built in. Check the **data/reference_link_list.json** file for the linkable names."
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Example links for external and internal pages",
+        "add_items_to_list": [
+          "\\{a link|url\\} → {a link|https://example.com}",
+          "\\{the team|@team\\} → {the team|@team}",
+          "\\{the research areas section|@home.areas\\} → {the research areas section|@home.areas}",
+          "\\{a news link|@news.field_season_opens_across_14_alpine_coastal_biomes\\} → {a news link|@news.field_season_opens_across_14_alpine_coastal_biomes}",
+          "\\{facilities|@pages.facilities\\} → {facilities|@home.areas}"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣0️⃣. How to add special characters, start a new line, or add a break to add space"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD SPECIAL CHARACTERS, START IN NEW LINE or ADD A BREAK TO ADD SPACE -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "heading": "How to add special characters",
+        "text": "In here we are considering characters used for formatting options as special characteres. Such as `*`, `+`, `~`, `=`, `^`, `{}`.Add a double slash (\\\\\\\\) before the character to display it literally. for example, (\\\\\\\\\\*this stays plain\\\\\\\\\\*) = \\*this stays plain\\* will display as *this stays plain*."
+      }
+    },
+    {
+      "add_paragraph": {
+        "heading": "How to add a new line and a break to a new paragraph and add space",
+        "text": "add Quisque finibus sem a eros ultrices, a ultricies mi volutpat. Praesent sit amet felis ac lorem sollicitudin pellentesque eget nec libero. Fusce faucibus dapibus eros, ut interdum sem imperdiet a. new line ->\n In ultrices mi mi. new line -> \nMorbi ullamcorper enim vitae mattis porttitor. new line ->\n Aliquam feugiat, nunc nec lobortis elementum, ante sapien pharetra tortor, vel dapibus arcu urna vel nibh. Break to new paragrapgh ->\n\nVivamus eros lorem, convallis sed orci id, gravida cursus nisl. Ut euismod porta massa tristique tempor. Nullam nisi massa, convallis sit amet laoreet sit amet, egestas vitae tortor. Donec placerat purus et ligula eleifend congue. Morbi id ante non odio imperdiet mattis. Suspendisse potenti. Aliquam lacus enim, viverra non quam non, congue facilisis augue. Donec hendrerit libero at libero pellentesque, et suscipit odio feugiat."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣1️⃣. How to add quotes"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD QUOTES -------------------------------------- ",
+    {
+      "add_quote": "The archive is not a warehouse of old things; it is a conversation with everyone who measured before us."
+    },
+    {
+      "add_quote": {
+        "heading": "From the field",
+        "text": "We follow the chemistry where it flows — from the snowline to the estuary, one season at a time.",
+        "author_of_the_quote": "Michael Carter",
+        "position_of_the_author": "Principal Investigator"
+      }
+    },
+    {
+      "add_quote": {
+        "heading": "From the field",
+        "text": "We follow the chemistry where it flows — from the snowline to the estuary, one season at a time.",
+        "author_of_the_quote": "Michael Carter",
+        "position_of_the_author": "Principal Investigator",
+        "column": "left"
+      }
+    },
+    {
+      "add_quote": {
+        "heading": "From the field",
+        "text": "We follow the chemistry where it flows — from the snowline to the estuary, one season at a time.",
+        "author_of_the_quote": "Michael Carter",
+        "position_of_the_author": "Principal Investigator",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣2️⃣. How to add special notes"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD SPECIAL NOTES -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "heading": "How to add custom icons to the special notes",
+        "text": "Upload your custom icons to **\\\\assets\\\\icons\\\\custom_icons** and add the icon name directly to the special_note_icon field. The icon will be displayed in the special note block."
+      }
+    },
+    {
+      "add_special_note": {
+        "heading": "Information",
+        "text": "This is a basic special note. It can be used to highlight information, warnings, or any other important content. You can **customize the color and icon as needed**."
+      }
+    },
+    {
+      "add_special_note": {
+        "column": "right",
+        "colour": "info",
+        "heading": "Information",
+        "icon": "pimp_biology_club",
+        "text": "…"
+      }
+    },
+    {
+      "add_special_note": {
+        "column": "left",
+        "colour": "info",
+        "heading": "Information",
+        "icon": "pimp_biology_club",
+        "text": "…"
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Information",
+        "icon": "pimp_biology_club",
+        "text": "This is a special note with a **pre available colour and custom icon**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Information",
+        "icon": false,
+        "text": "This is a special note with a **pre availabel colour without an icon**."
+      }
+    },
+    {
+      "add_special_note": {
+        "background_colour": "#25402e",
+        "text_colour": "#eef0e6",
+        "heading": "From the archive",
+        "icon": "pimp_biology_club",
+        "text": "This is a special note with a **custom colour with a custom icon**."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣3️⃣. Pre available special note colours"
+      }
+    },
+    "// -------------------------------------- PRE AVAILABLE SPECIAL NOTE COLOURS -------------------------------------- ",
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "amber",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "dark",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "green",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "red",
+        "heading": "Information",
+        "text": "This is a special note with a **pre available colour**."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣4️⃣. How to add tables"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD TABLES -------------------------------------- ",
+    {
+      "add_table": {
+        "heading": "A small data table",
+        "table_caption": "Optional caption above the table.",
+        "column_headers": [
+          "Sample",
+          "Depth (cm)",
+          "Carbon (%)"
+        ],
+        "align": [
+          "left",
+          "right",
+          "right"
+        ],
+        "content_of_rows_separated_by_comma": [
+          "SM-01, 0–10, 4.8",
+          "SM-02, 10–20, 3.1",
+          "SM-03, 20–30, 2.4",
+          "\"Smith, J.\", \"0–10\", \"4,8\""
+        ]
+      }
+    },
+    {
+      "add_table": {
+        "column": "left",
+        "heading": "Samples",
+        "column_headers": [
+          "Sample",
+          "Depth",
+          "Carbon"
+        ],
+        "content_of_rows_separated_by_comma": [
+          "\"SM-01\", \"0–10\", \"4.8\""
+        ]
+      }
+    },
+    {
+      "add_table": {
+        "column": "right",
+        "heading": "Samples",
+        "column_headers": [
+          "Sample",
+          "Depth",
+          "Carbon"
+        ],
+        "content_of_rows_separated_by_comma": [
+          "\"SM-01\", \"0–10\", \"4.8\""
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣5️⃣. How to add equations"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD EQUATIONS -------------------------------------- ",
+    {
+      "add_equation": "E = mc^2"
+    },
+    {
+      "add_equation": {
+        "heading": "Carbon stock",
+        "formatted_equation": "C_{stock} = \\sum_{i=1}^{n} \\rho_i \\cdot d_i \\cdot c_i",
+        "equation_caption": "A displayed equation, drawn with KaTeX. Remember JSON needs doubled backslashes in the formula."
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "An inline equation is written with **\"add_as_inline_equation\": true**:"
+      }
+    },
+    {
+      "add_equation": {
+        "formatted_equation": "a^2 + b^2 = c^2",
+        "add_as_inline_equation": true
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣6️⃣. How to add dividers and available divider styles"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD DIVIDERS AND AVAILABLE DIVIDER STYLES -------------------------------------- ",
+    {
+      "add_divider": "solid"
+    },
+    {
+      "add_divider": {
+        "style": "bold",
+        "column": "right"
+      }
+    },
+    {
+      "add_divider": {
+        "style": "bold",
+        "column": "left"
+      }
+    },
+    {
+      "add_divider": "dashed"
+    },
+    {
+      "add_divider": "dotted"
+    },
+    {
+      "add_divider": "bold"
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣7️⃣. How to add tags and full width links"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD TAGS AND FULL WIDTH LINKS -------------------------------------- ",
+    {
+      "add_tags": [
+        "fieldwork",
+        "alpine",
+        "sensors"
+      ]
+    },
+    {
+      "add_tags": {
+        "heading": "Skills",
+        "tags": [
+          "PCR",
+          "R",
+          "GIS",
+          "Isotope tracing"
+        ]
+      }
+    },
+    {
+      "add_tags": {
+        "column": "left",
+        "heading": "Skills",
+        "tags": [
+          "PCR",
+          "R",
+          "GIS"
+        ]
+      }
+    },
+    {
+      "add_tags": {
+        "column": "right",
+        "heading": "Skills",
+        "tags": [
+          "PCR",
+          "R",
+          "GIS"
+        ]
+      }
+    },
+    {
+      "add_full_width_links": {
+        "heading": "Related links",
+        "links": [
+          {
+            "label": "The paper",
+            "link": "https://doi.org/10.1038/s41558-024-01988-x",
+            "note": "DOI"
+          },
+          {
+            "label": "The dataset",
+            "link": "https://example.com/dataset"
+          },
+          {
+            "label": "A note without a link",
+            "note": "plain words"
+          }
+        ]
+      }
+    },
+    {
+      "add_full_width_links": {
+        "column": "left",
+        "heading": "Related links",
+        "links": [
+          {
+            "label": "The paper",
+            "link": "https://doi.org/10.1038/s41558-024-01988-x",
+            "note": "DOI"
+          },
+          {
+            "label": "The dataset",
+            "link": "https://example.com/dataset"
+          },
+          {
+            "label": "A note without a link",
+            "note": "plain words"
+          }
+        ]
+      }
+    },
+    {
+      "add_full_width_links": {
+        "column": "right",
+        "heading": "Related links",
+        "links": [
+          {
+            "label": "The paper",
+            "link": "https://doi.org/10.1038/s41558-024-01988-x",
+            "note": "DOI"
+          },
+          {
+            "label": "The dataset",
+            "link": "https://example.com/dataset"
+          },
+          {
+            "label": "A note without a link",
+            "note": "plain words"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣8️⃣. How to link internal pages"
+      }
+    },
+    "// -------------------------------------- HOW TO LINK INTERNAL PAGES -------------------------------------- ",
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Linkable pages & items"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "Links are ordinary addresses. A free-standing JSON page lives under `data/pages/` and opens through `page.html?page=folder/name` — in any paragraph, list item, caption, special note or table."
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Pages — page.html?page=…",
+        "add_items_to_list": [
+          "The example page → {methods & measurements|page.html?page=examples/hello}",
+          "The home page → {a short profile|index.html}",
+          "The CV reader → {the CV|pages/reader.html}"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Sections on this page — @anchor",
+        "add_items_to_list": [
+          "About → {a short profile|@about}",
+          "Research → {three questions|@research}",
+          "Publications → {selected papers|@publications}",
+          "Teaching → {courses & talks|@teaching}",
+          "Contact → {get in touch|@contact}"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "heading": "Built-in links",
+        "add_items_to_list": [
+          "The CV → {open the CV|@cv}",
+          "Email → {naomi.reyes@northfield.ac.uk|@email}"
+        ]
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "To add a page, create `data/pages/methods.json` with a `title` and a `sections` array, then link `page.html?page=methods`. `@name` points at a section anchor on this page; `@cv` opens the reader."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣9️⃣. How to add buttons"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD BUTTONS -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "text": "A button may point at an internal page by name: **@team**, **@home.contact**, **@research.soil_microbiome** — or at a external link as **www.example.com.** "
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Adding buttons in one row"
+      }
+    },
+    {
+      "add_button": {
+        "items": [
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          },
+          {
+            "label": "Outline button",
+            "style": "outline",
+            "link": "https://example.com"
+          },
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          },
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Align buttons and adding buttons on top of each button"
+      }
+    },
+    {
+      "add_button": {
+        "align": "left",
+        "items": [
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "align": "center",
+        "items": [
+          {
+            "label": "Centred without icon",
+            "style": "outline",
+            "link": "https://example.com"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "align": "right",
+        "items": [
+          {
+            "label": "Right-aligned row",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "column": "right",
+        "align": "center",
+        "items": [
+          {
+            "label": "Contact",
+            "link": "@email",
+            "style": "fill"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "column": "right",
+        "align": "left",
+        "items": [
+          {
+            "label": "Contact",
+            "link": "@email",
+            "style": "fill"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "column": "right",
+        "align": "right",
+        "items": [
+          {
+            "label": "Contact",
+            "link": "@email",
+            "style": "fill"
+          }
+        ]
+      }
+    },
+    {
+      "add_button": {
+        "column": "right",
+        "items": [
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          },
+          {
+            "label": "Outline button",
+            "style": "outline",
+            "link": "https://example.com"
+          },
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          },
+          {
+            "label": "Fill button",
+            "style": "fill",
+            "link": "https://example.com",
+            "icon": "arrow_outward"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣0️⃣. How to add focus lists"
+      }
+    },
+    "// -------------------------------------- HOW TO ADDFOCUS LISTS -------------------------------------- ",
+    {
+      "add_focus_list": {
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Rhizosphere carbon retention",
+          "Alpine warming experiments",
+          "Open, reproducible field data"
+        ]
+      }
+    },
+    {
+      "add_focus_list": {
+        "column": "right",
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Rhizosphere carbon retention",
+          "Alpine warming experiments",
+          "Open, reproducible field data"
+        ]
+      }
+    },
+    {
+      "add_focus_list": {
+        "column": "left",
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Rhizosphere carbon retention",
+          "Alpine warming experiments",
+          "Open, reproducible field data"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣1️⃣. How to add a timeline"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD A TIMELINE -------------------------------------- ",
+    {
+      "add_a_timeline": {
+        "heading": "Path",
+        "items_of_the_timeline": [
+          {
+            "timeline_item_date": "2010 – 2016",
+            "timeline_item_title": "Postdoctoral research, ETH Zürich"
+          },
+          {
+            "timeline_item_date": "2016",
+            "timeline_item_title": "Founded CLEAR WATER LAB",
+            "timeline_item_text": "A small group with a shared field notebook."
+          },
+          {
+            "timeline_item_date": "2026",
+            "timeline_item_title": "Fourteen alpine & coastal biomes",
+            "timeline_item_text": "The sensor grid reaches its widest season yet."
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣2️⃣. Add or remove space elements"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD OR REMOVESPACE BETWEEN ELEMENTS -------------------------------------- ",
+    {
+      "add_paragraph": {
+        "text": "**This feature is still under development, proceed with caution.**"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Move elements closer — space_before"
+      }
+    },
+    {
+      "add_paragraph": {
+        "space_before": "none",
+        "text": "This paragraph sits directly under the heading — `space_before: \"none\"` removes its top gap."
+      }
+    },
+    {
+      "add_paragraph": {
+        "space_before": "less",
+        "text": "This one is one step closer than the default — `space_before: \"less\"`. `space_subtract: 1` does the same thing."
+      }
+    },
+    {
+      "add_special_note": {
+        "space_subtract": 1,
+        "colour": "info",
+        "text": "`space_before` takes `none`, `xs`, `sm`, `md`, `lg`, `xl` or `less`. `space_subtract` takes a number of steps — 1 = one step less than the default 3rem."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣3️⃣. Add contact information"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD CONTACT INFORMATION -------------------------------------- ",
+    {
+      "add_contact_information": {
+        "heading": "Add single contact",
+        "name": "Michael Carter",
+        "role": "Principal Investigator",
+        "email": "michael.carter@bioterra-lab.org",
+        "mobile": "+44 7700 900123"
+      }
+    },
+    {
+      "add_contact_information": {
+        "heading": "Add multiple contacts",
+        "people": [
+          {
+            "name": "Michael Carter",
+            "role": "Principal Investigator",
+            "email": "michael.carter@bioterra-lab.org"
+          },
+          {
+            "name": "Prof. Katherine Bennett",
+            "role": "Co-Investigator",
+            "email": "katherine.bennett@bioterra-lab.org"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Equation columns"
+      }
+    },
+    {
+      "add_equation": {
+        "column": "left",
+        "formatted_equation": "E = mc^2",
+        "equation_caption": "Left column on a page."
+      }
+    },
+    {
+      "add_equation": {
+        "column": "right",
+        "formatted_equation": "F = ma",
+        "equation_caption": "Right column on a page."
+      }
+    },
+    {
+      "add_equation": "x = y",
+      "column": "left"
+    },
+    {
+      "add_equation": {
+        "column": "right",
+        "formatted_equation": "pV = nRT",
+        "add_as_inline_equation": true
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "List columns"
+      }
+    },
+    {
+      "add_list": {
+        "column": "left",
+        "heading": "Left, numbered",
+        "style": "number",
+        "add_items_to_list": [
+          "One",
+          "Two",
+          "Three"
+        ]
+      }
+    },
+    {
+      "add_list": {
+        "column": "right",
+        "heading": "Right, check marks",
+        "style": "check",
+        "add_items_to_list": [
+          "Field sheets",
+          "Blank trips"
+        ]
+      }
+    },
+    {
+      "add_list": [
+        "Full width list",
+        "No column hint"
+      ]
+    }
+  ]
+}

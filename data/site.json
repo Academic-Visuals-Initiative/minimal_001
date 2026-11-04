@@ -1,0 +1,56 @@
+{
+  "title": "Your Name — Your title",
+  "description": "Add a small description about 100 - 150 words.",
+  "favicon": "assets/logos/AVI.jpg",
+  "header": {
+    "name": "Your Name",
+    "title": "Add a title",
+    "affiliation": "Add an affiliation",
+    "image_path": "assets/logos/AVI.jpg",
+    "image_alt": "Portrait of Dr. Naomi Reyes",
+    "cv": {
+      "label": "View CV",
+      "file": "assets/cv.pdf"
+    },
+    "subheading": "Add a text year — 2026",
+    "additional_info": [
+      "Add extra information lines",
+      "line 2"
+    ]
+  },
+  "sections": [
+    "about",
+    "education",
+    "publications",
+    "research",
+    "contact"
+  ],
+  "footer": {
+    "links": [
+      {
+        "link": "mailto:naomi.reyes@northfield.ac.uk",
+        "icon": "mail"
+      },
+      {
+        "link": "https://scholar.google.com/",
+        "icon": "googlescholar-old"
+      },
+      {
+        "link": "https://orcid.org/",
+        "icon": "orcid"
+      },
+      {
+        "link": "https://github.com/",
+        "icon": "github"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://bsky.app/",
+        "icon": "bluesky"
+      }
+    ]
+  }
+}

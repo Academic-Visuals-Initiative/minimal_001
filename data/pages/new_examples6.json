@@ -1,0 +1,218 @@
+{
+  "title": "Embeds and 3D models",
+  "description": "Embedded media and models shown normal, left and right.",
+  "add_content_to_page": [
+    {
+      "add_paragraph": {
+        "text": "Every element is shown three ways: **Normal** (no `column`), **Left column** (`column: \"left\"`) and **Right column** (`column: \"right\"`). The left and right copies share a row; the normal copy uses the full width.",
+        "is_lead": true
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "One rule",
+        "text": "No column, full width. A column value puts the element in that lane. Nothing else is needed."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Embedded media"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_embed_media` takes `link`, `heading`, `caption`, `credit`, `height`, `align` and `column`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "An embedded video",
+        "link": "https://youtu.be/8RdcvgMlp_k?si=EPBydYSLzf5Wiui0",
+        "caption": "A YouTube link becomes an embed.",
+        "credit": "CLEAR WATER LAB",
+        "height": 380
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "An embedded video",
+        "link": "https://youtu.be/8RdcvgMlp_k?si=EPBydYSLzf5Wiui0",
+        "caption": "A YouTube link becomes an embed.",
+        "credit": "CLEAR WATER LAB",
+        "height": 240,
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "An embedded video",
+        "link": "https://youtu.be/8RdcvgMlp_k?si=EPBydYSLzf5Wiui0",
+        "caption": "A YouTube link becomes an embed.",
+        "credit": "CLEAR WATER LAB",
+        "height": 240,
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Embed rows"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_embed_media_row` takes `columns`, `height`, `add_embedded_media_to_row` and `column`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_embed_media_row": {
+        "heading": "Embeds in a row",
+        "columns": 2,
+        "height": 260,
+        "add_embedded_media_to_row": [
+          {
+            "heading": "Slides",
+            "link": "https://docs.google.com/presentation/d/1PY7Tv4w8A0Fslz_Ro0ekzSajddqtZZs8/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true"
+          },
+          {
+            "heading": "Document",
+            "link": "https://docs.google.com/document/d/1-0XK4DKBMlU8tme74Q39wNrq8Cgs3Gj5lmynAxa7M6k/edit?usp=sharing"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_embed_media_row": {
+        "heading": "Embeds in a row",
+        "columns": 1,
+        "height": 260,
+        "add_embedded_media_to_row": [
+          {
+            "heading": "Slides",
+            "link": "https://docs.google.com/presentation/d/1PY7Tv4w8A0Fslz_Ro0ekzSajddqtZZs8/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true"
+          }
+        ],
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_embed_media_row": {
+        "heading": "Embeds in a row",
+        "columns": 1,
+        "height": 260,
+        "add_embedded_media_to_row": [
+          {
+            "heading": "Slides",
+            "link": "https://docs.google.com/presentation/d/1PY7Tv4w8A0Fslz_Ro0ekzSajddqtZZs8/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true"
+          }
+        ],
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "3D models"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_3d_model` takes `model_path`, `model_caption`, `model_credit`, `height`, `show_autorotate`, `show_download`, `align` and `column`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_3d_model": {
+        "heading": "A 3D model",
+        "model_path": "logo.glb",
+        "model_caption": "Drag to turn; scroll to zoom.",
+        "height": 380,
+        "show_autorotate": true,
+        "show_download": true
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_3d_model": {
+        "heading": "A 3D model",
+        "model_path": "test3.glb",
+        "model_caption": "Drag to turn; scroll to zoom.",
+        "height": 280,
+        "show_autorotate": false,
+        "show_download": false,
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_3d_model": {
+        "heading": "A 3D model",
+        "model_path": "test3.glb",
+        "model_caption": "Drag to turn; scroll to zoom.",
+        "height": 280,
+        "show_autorotate": false,
+        "show_download": false,
+        "column": "right"
+      }
+    }
+  ]
+}

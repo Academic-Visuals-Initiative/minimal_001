@@ -1,0 +1,181 @@
+{
+  "title": "Pages, links and composition",
+  "description": "How page files, links and section composition work. The element examples live on pages 1–6.",
+  "add_content_to_page": [
+    {
+      "add_paragraph": {
+        "text": "Each element is documented in one place, and each appears **three times**: normal, left column and right column. This page covers the page itself, not the elements.",
+        "is_lead": true
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Element pages",
+        "text": "Text — page 1 · Media — page 2 · Cards and people — page 3 · Publications — page 4 · Data and actions — page 5 · Embeds and 3D — page 6."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Page keys"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "A page under `data/pages/` is a single flow or a list of sections. A standalone page has no numbered section head; the sticky bar carries its title."
+      }
+    },
+    {
+      "add_table": {
+        "column_headers": [
+          "Key",
+          "What it does"
+        ],
+        "content_of_rows_separated_by_comma": [
+          [
+            "title",
+            "Browser title and default heading."
+          ],
+          [
+            "description",
+            "Meta description."
+          ],
+          [
+            "heading",
+            "Overrides the title in the lead."
+          ],
+          [
+            "intro",
+            "Standfirst under the heading."
+          ],
+          [
+            "layout",
+            "Optional; `text` runs prose in two columns."
+          ],
+          [
+            "sections",
+            "Section ids or inline section objects."
+          ],
+          [
+            "add_content_to_page",
+            "The element flow."
+          ]
+        ],
+        "align": [
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Links"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "The same resolver is used in prose, cards, publications, buttons and notes."
+      }
+    },
+    {
+      "add_table": {
+        "column_headers": [
+          "Written",
+          "Becomes"
+        ],
+        "content_of_rows_separated_by_comma": [
+          [
+            "https://example.com",
+            "external URL, new tab"
+          ],
+          [
+            "@home",
+            "index.html"
+          ],
+          [
+            "@pages.new_examples1",
+            "page.html?page=new_examples1"
+          ],
+          [
+            "@research",
+            "#research"
+          ],
+          [
+            "@cv",
+            "the CV viewer"
+          ],
+          [
+            "@email",
+            "mailto: the header email"
+          ],
+          [
+            "@top",
+            "#top"
+          ]
+        ],
+        "align": [
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Pages from sections"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "A page can list section ids (`[\"about\", \"research\"]`) or inline section objects. Each section keeps its own heading, intro and flow. A section file can be reused on several pages."
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "Home sections",
+        "text": "The home page reads `data/site.json` and renders the section ids in order. Only home sections show the numbered head."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "The element pages"
+      }
+    },
+    {
+      "add_list": {
+        "style": "number",
+        "add_items_to_list": [
+          {
+            "list_item": "Text, lists and emphasis — [open](@pages.new_examples1)"
+          },
+          {
+            "list_item": "Images, galleries and slideshows — [open](@pages.new_examples2)"
+          },
+          {
+            "list_item": "Cards, people and teaching — [open](@pages.new_examples3)"
+          },
+          {
+            "list_item": "Publications and links — [open](@pages.new_examples4)"
+          },
+          {
+            "list_item": "Tables, timelines, disclosures and actions — [open](@pages.new_examples5)"
+          },
+          {
+            "list_item": "Embeds and 3D models — [open](@pages.new_examples6)"
+          }
+        ]
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "amber",
+        "heading": "Variants",
+        "text": "A normal copy has no `column`. Left and right copies share a row. If you add a `column` to something that is already full width, it moves into that lane; remove it and it returns to full width."
+      }
+    }
+  ]
+}

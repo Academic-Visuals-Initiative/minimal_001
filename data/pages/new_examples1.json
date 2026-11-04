@@ -1,0 +1,532 @@
+{
+  "title": "Text, lists and emphasis",
+  "description": "Every prose element shown normal, in the left column and in the right column.",
+  "add_content_to_page": [
+    {
+      "add_paragraph": {
+        "text": "Every element is shown three ways: **Normal** (no `column`), **Left column** (`column: \"left\"`) and **Right column** (`column: \"right\"`). The left and right copies share a row; the normal copy uses the full width.",
+        "is_lead": true
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "info",
+        "heading": "One rule",
+        "text": "No column, full width. A column value puts the element in that lane. Nothing else is needed."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Paragraphs"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_paragraph` takes `text`, an optional `heading`, `is_lead`, `layout: \"two-col\"` and `column`. Inline markup works: **bold**, *italic*, `code`, [links](https://example.com)."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "A paragraph with **bold**, *italic*, `code` and a [link](https://example.com). No column means the full width; a left or right column puts it in that lane."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "A paragraph with **bold**, *italic*, `code` and a [link](https://example.com). No column means the full width; a left or right column puts it in that lane.",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "A paragraph with **bold**, *italic*, `code` and a [link](https://example.com). No column means the full width; a left or right column puts it in that lane.",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Headings"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_heading` takes `heading_text`, `level` 1–4, an optional `subheading` and `column`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "A heading",
+        "subheading": "Optional subheading"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "A heading",
+        "subheading": "Optional subheading",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "A heading",
+        "subheading": "Optional subheading",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Lists"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_list` takes `add_items_to_list`, `style` and `list_level_1_style` … `list_level_4_style`. Items may nest with `level`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_list": {
+        "style": "number",
+        "list_level_2_style": "alpha",
+        "add_items_to_list": [
+          "Sampling design",
+          {
+            "list_item": "Nested catchments",
+            "level": 2
+          },
+          "Calibration and reporting"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_list": {
+        "style": "number",
+        "list_level_2_style": "alpha",
+        "add_items_to_list": [
+          "Sampling design",
+          {
+            "list_item": "Nested catchments",
+            "level": 2
+          },
+          "Calibration and reporting"
+        ],
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_list": {
+        "style": "number",
+        "list_level_2_style": "alpha",
+        "add_items_to_list": [
+          "Sampling design",
+          {
+            "list_item": "Nested catchments",
+            "level": 2
+          },
+          "Calibration and reporting"
+        ],
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Focus list"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_focus_list` takes `items_of_the_focus_list` and an optional `heading`. Its items run one per row."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_focus_list": {
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Where carbon leaves a catchment.",
+          "Which contaminants travel with sediment.",
+          "How cheap sensors earn trust."
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_focus_list": {
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Where carbon leaves a catchment.",
+          "Which contaminants travel with sediment.",
+          "How cheap sensors earn trust."
+        ],
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_focus_list": {
+        "heading": "Key focus areas",
+        "items_of_the_focus_list": [
+          "Where carbon leaves a catchment.",
+          "Which contaminants travel with sediment.",
+          "How cheap sensors earn trust."
+        ],
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Quotes"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_quote` takes `text`, `author_of_the_quote`, `position_of_the_author` and an optional `heading`."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_quote": {
+        "heading": "Field note",
+        "text": "Every number needs a story about how it was made.",
+        "author_of_the_quote": "Naomi Reyes",
+        "position_of_the_author": "Environmental Chemistry"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_quote": {
+        "heading": "Field note",
+        "text": "Every number needs a story about how it was made.",
+        "author_of_the_quote": "Naomi Reyes",
+        "position_of_the_author": "Environmental Chemistry",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_quote": {
+        "heading": "Field note",
+        "text": "Every number needs a story about how it was made.",
+        "author_of_the_quote": "Naomi Reyes",
+        "position_of_the_author": "Environmental Chemistry",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Special notes"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_special_note` takes `colour` (info, amber, green, red, dark, accent), `heading`, `text`, an optional `icon`, and custom colours."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "amber",
+        "heading": "A note",
+        "text": "Use a note for a caveat, a method hint or a short aside. It fills the width it is given."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "amber",
+        "heading": "A note",
+        "text": "Use a note for a caveat, a method hint or a short aside. It fills the width it is given.",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_special_note": {
+        "colour": "amber",
+        "heading": "A note",
+        "text": "Use a note for a caveat, a method hint or a short aside. It fills the width it is given.",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Tags"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_tags` prints a static tag list. Tags on cards and publications are filtering metadata instead."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_tags": {
+        "heading": "Static tags",
+        "tags": [
+          "Fieldwork",
+          "Laboratory",
+          "Modelling"
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_tags": {
+        "heading": "Static tags",
+        "tags": [
+          "Fieldwork",
+          "Laboratory",
+          "Modelling"
+        ],
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_tags": {
+        "heading": "Static tags",
+        "tags": [
+          "Fieldwork",
+          "Laboratory",
+          "Modelling"
+        ],
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Dividers"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_divider` takes a style: solid, thin, dashed, dotted, bold or double."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_divider": {
+        "style": "dashed"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_divider": {
+        "style": "dashed",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_divider": {
+        "style": "dashed",
+        "column": "right"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Equations"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "`add_equation` takes `formatted_equation`, optional `heading` and `equation_caption`, and `column`. JSON needs doubled backslashes."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Normal"
+      }
+    },
+    {
+      "add_equation": {
+        "formatted_equation": "E = mc^2",
+        "equation_caption": "A short display equation."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Left column",
+        "column": "left"
+      }
+    },
+    {
+      "add_equation": {
+        "formatted_equation": "E = mc^2",
+        "equation_caption": "A short display equation.",
+        "column": "left"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 4,
+        "heading_text": "Right column",
+        "column": "right"
+      }
+    },
+    {
+      "add_equation": {
+        "formatted_equation": "E = mc^2",
+        "equation_caption": "A short display equation.",
+        "column": "right"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "research",
+  "number": "02",
+  "label": "Projects",
+  "heading": "Check Out My Recent Projects",
+  "intro": "Add a small introduction",
+  "add_content_to_page": [
+    {
+      "add_cards": {
+        "columns": 2,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Card Keyword",
+            "heading": "Example Card with Image and Internal Link",
+            "image_path": "assets/img/ph-07.jpg",
+            "text": "Add a introduction here.",
+            "tags": [
+              "Catchments",
+              "Carbon cycling"
+            ],
+            "link": "@pages.examples.example"
+          },
+          {
+            "individual_card_keyword": "Card Keyword",
+            "heading": "Example Card with Image and Without a Link",
+            "image_path": "assets/img/ph-07.jpg",
+            "text": "Add a introduction here.",
+            "tags": [
+              "Catchments",
+              "Carbon cycling"
+            ],
+            "link": ""
+          },
+          {
+            "individual_card_keyword": "Card Keyword",
+            "heading": "Example Card without Image and Link",
+            "text": "Add a introduction here.",
+            "tags": [
+              "Sensors",
+              "Uncertainty"
+            ],
+            "link": ""
+          },
+          {
+            "individual_card_keyword": "Card Keyword",
+            "heading": "Example Card without Image and External Link",
+            "text": "Add a introduction here.",
+            "tags": [
+              "Microplastics",
+              "Urban rivers"
+            ],
+            "link": "https://www.example.com"
+          }
+        ],
+        "show_categories": true
+      }
+    }
+  ]
+}

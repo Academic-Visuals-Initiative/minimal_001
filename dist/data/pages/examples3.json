@@ -1,0 +1,776 @@
+{
+  "title": "Methods",
+  "description": "How the lab measures carbon in upland streams.",
+  "layout": "columns",
+  "add_content_to_page": [
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣. How to add web links as cards with image"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD CARDS WITH IMAGES -------------------------------------- ",
+    {
+      "add_cards": {
+        "heading": "Picture cards",
+        "intro": "A card may carry a picture, an alt text and a fit mode.",
+        "columns": 3,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Linked to internal page",
+            "text": "Every core, every depth, digitised across the warming plots.",
+            "additional_info": "2019–2025",
+            "tags": ["Soil carbon", "Open data"],
+            "image_path": "assets/img/ph-07.jpg",
+            "image_alt": "",
+            "link": "@research.soil_microbiome"
+          },
+          {
+            "individual_card_keyword": "Instrument",
+            "heading": "Linked to external page",
+            "text": "The shared sequencer that reads every rhizosphere sample.",
+            "additional_info": "Lab 04",
+            "tags": ["Methods", "Instrument"],
+            "image_path": "assets/img/ph-08.jpg",
+            "image_alt": "",
+            "link": "https://example.com/labs/sequencer"
+          },
+          {
+            "individual_card_keyword": "Specimen",
+            "heading": "Linked to internal page",
+            "text": "The wide picture fills the plate; the outer edges are cropped.",
+            "additional_info": "Materials",
+            "tags": "Imaging, Materials",
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": "",
+            "link": "@about"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "2️⃣. How to add web links as cards without image"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD CARDS WITHOUT IMAGES -------------------------------------- ",
+    {
+      "add_cards": {
+        "heading": "Picture cards",
+        "intro": "A card may carry a picture, an alt text and a fit mode.",
+        "columns": 3,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Linked to external page",
+            "text": "Every core, every depth, digitised across the warming plots.",
+            "additional_info": "2019–2025",
+            "tags": ["Open data", "Soil carbon"],
+            "link": "https://example.com/datasets/soil-carbon"
+          },
+          {
+            "individual_card_keyword": "Instrument",
+            "heading": "Linked to internal page",
+            "text": "The shared sequencer that reads every rhizosphere sample.",
+            "additional_info": "Lab 04",
+            "tags": ["Instruments", "Methods"],
+            "link": "@home"
+          },
+          {
+            "individual_card_keyword": "Specimen",
+            "heading": "linked to internal page",
+            "text": "The wide picture fills the plate; the outer edges are cropped.",
+            "additional_info": "Materials",
+            "tags": ["Imaging", "Materials"],
+            "link": "@research.soil_microbiome"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "3️⃣. How to add cards with and without images without linking to a web page"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD CARDS WITH AND WITHOUT IMAGES WITHOUT LINKING TO A WEB PAGE -------------------------------------- ",
+    {
+      "add_cards": {
+        "heading": "Picture cards",
+        "intro": "Feel free to use cards without images, with images or mix of both",
+        "columns": 3,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Soil carbon archive",
+            "text": "Every core, every depth, digitised across the warming plots.",
+            "additional_info": "2019–2025"
+          },
+          {
+            "individual_card_keyword": "Instrument",
+            "heading": "Automated DNA sequencer",
+            "text": "The shared sequencer that reads every rhizosphere sample.",
+            "additional_info": "Lab 04"
+          },
+          {
+            "individual_card_keyword": "Specimen",
+            "heading": "Biopolymer film, fitted",
+            "text": "The wide picture fills the plate; the outer edges are cropped.",
+            "additional_info": "Materials"
+          },
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Soil carbon archive",
+            "text": "Every core, every depth, digitised across the warming plots.",
+            "additional_info": "2019–2025",
+            "image_path": "assets/img/ph-07.jpg",
+            "image_alt": ""
+          },
+          {
+            "individual_card_keyword": "Instrument",
+            "heading": "Automated DNA sequencer",
+            "text": "The shared sequencer that reads every rhizosphere sample.",
+            "additional_info": "Lab 04",
+            "image_path": "assets/img/ph-08.jpg",
+            "image_alt": ""
+          },
+          {
+            "individual_card_keyword": "Specimen",
+            "heading": "Biopolymer film, fitted",
+            "text": "The wide picture fills the plate; the outer edges are cropped.",
+            "additional_info": "Materials",
+            "image_path": "assets/img/ph-04.png",
+            "image_alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "4️⃣. How to add full width cards with and without images, with and without links"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD EXTERNALLY AND INTERNALLY LINKABLE PEOPLE -------------------------------------- ",
+    {
+      "add_cards": {
+        "individual_card_keyword": "Playlist",
+        "heading": "Full width card with image and external link",
+        "text": "A six-part series on recording a landscape: microphones, placement, weather, and the long listen.",
+        "additional_info": "6 videos · 42 min",
+        "image_path": "assets/img/ph-07.jpg",
+        "link": "https://example.com/workshops/field-recording"
+      }
+    },
+    {
+      "add_cards": {
+        "individual_card_keyword": "Playlist",
+        "heading": "Full width card with image and internal link",
+        "text": "A six-part series on recording a landscape: microphones, placement, weather, and the long listen.",
+        "additional_info": "6 videos · 42 min",
+        "image_path": "assets/img/ph-07.jpg",
+        "link": "@pages.facilities"
+      }
+    },
+    {
+      "add_cards": {
+        "individual_card_keyword": "Playlist",
+        "heading": "Full width card with image but without link",
+        "text": "A six-part series on recording a landscape: microphones, placement, weather, and the long listen.",
+        "additional_info": "6 videos · 42 min",
+        "image_path": "assets/img/ph-07.jpg"
+      }
+    },
+    {
+      "add_cards": {
+        "individual_card_keyword": "Playlist",
+        "heading": "Full width card without image but with link",
+        "text": "A six-part series on recording a landscape: microphones, placement, weather, and the long listen.",
+        "additional_info": "6 videos · 42 min",
+        "link": "https://example.com/workshops/field-recording"
+      }
+    },
+    {
+      "add_cards": {
+        "individual_card_keyword": "Playlist",
+        "heading": "Full width card without image and without link",
+        "text": "A six-part series on recording a landscape: microphones, placement, weather, and the long listen.",
+        "additional_info": "6 videos · 42 min"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "5️⃣. How to add linkable external and internal people cards with photos"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD EXTERNALLY AND INTERNALLY LINKABLE PEOPLE -------------------------------------- ",
+    {
+      "add_people": {
+        "heading": "Linking internal people",
+        "intro": "To Link internal profile automatically with name , person must have their name in team json and separate profile json in profiles folder.",
+        "people": [
+          {
+            "name": "Michael Carter"
+          },
+          {
+            "name": "Luke Weber"
+          },
+          {
+            "name": "Emily Morgan"
+          }
+        ]
+      }
+    },
+    {
+      "add_people": {
+        "heading": "Linking external people",
+        "intro": "Field capture, lab imaging and data curation.",
+        "people": [
+          {
+            "name": "Dr. Imani Wallace",
+            "position": "Principal Investigator",
+            "image_path": "assets/Images/team_and_alumni/imani_wallace.jpg",
+            "profile_link": "https://example.com/people/Imani-Wallace"
+          },
+          {
+            "name": "Tomás Rivera",
+            "position": "Field Imaging Lead",
+            "image_path": "assets/Images/team_and_alumni/tomas_rivera.jpg",
+            "profile_link": "https://example.com/people/Tomás-Rivera"
+          },
+          {
+            "name": "Dr. Hana Kim",
+            "position": "Data Curator",
+            "image_path": "assets/Images/team_and_alumni/hana_kim.jpg",
+            "profile_link": "https://example.com/people/hana-kim"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "6️⃣. How to add people cards without photos or links"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD PEOPLE WITHOUT PHOTOS or LINKS -------------------------------------- ",
+    {
+      "add_people": {
+        "heading": "PEOPLE WITHOUT PHOTOS or LINKS",
+        "intro": "Field capture, lab imaging and data curation.",
+        "people": [
+          {
+            "name": "Dr. Imani Wallace",
+            "position": "Principal Investigator"
+          },
+          {
+            "name": "Tomás Rivera",
+            "position": "Field Imaging Lead",
+            "image_path": "assets/Images/team_and_alumni/tomas_rivera.jpg"
+          },
+          {
+            "name": "Dr. Hana Kim",
+            "position": "Data Curator",
+            "profile_link": "https://example.com/people/hana-kim"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "7️⃣. How to add full width 3D model previews with and without auto rotation and download option"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD FULL WIDTH 3D MODEL PREVIEWS WITH AND WITHOUT AUTO ROTATION AND DOWNLOAD OPTION -------------------------------------- ",
+    {
+      "add_3d_model": {
+        "model_path": "logo.glb",
+        "heading": "3D model Preview with auto rotation and download option",
+        "model_caption": ".glb files are supported. Upload your model to 3D folder in assests if you want to use the maodel name or use path to file.",
+        "model_credit": "CLEAR WATER LAB",
+        "height": 420,
+        "show_autorotate": true
+      }
+    },
+    {
+      "add_3d_model": {
+        "model_path": "test3.glb",
+        "heading": "3D model Preview without auto rotation and download option",
+        "model_caption": ".glb files are supported. Upload your model to 3D folder in assests if you want to use the maodel name or use path to file.",
+        "model_credit": "CLEAR WATER LAB",
+        "height": 420,
+        "show_autorotate": false,
+        "show_download": false
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "8️⃣. How to add half sized aligned 3D model previews with and without auto rotation and download option"
+      }
+    },
+    "// -------------------------------------- HOW TO ADD HALF SIZED ALIGNED 3D MODEL PREVIEWS WITH AND WITHOUT AUTO ROTATION AND DOWNLOAD OPTION -------------------------------------- ",
+    {
+      "add_3d_model": {
+        "model_path": "test.glb",
+        "heading": "3D preview right aligned with text on the left",
+        "model_caption": "Right-aligned — the text flows on the left.",
+        "align": "right",
+        "text": "This text flows beside the model on the left. The plate is pushed to the right, and on mobile it stacks here as well. Drag the model to turn it; scroll or pinch to zoom.",
+        "model_credit": "CLEAR WATER LAB",
+        "height": 420,
+        "show_autorotate": true,
+        "show_download": false
+      }
+    },
+    {
+      "add_3d_model": {
+        "model_path": "assets/3d/aspirin.glb",
+        "heading": "3D preview left aligned with text on the right",
+        "model_caption": "Left-aligned — the text flows on the right.",
+        "align": "left",
+        "text": "This text flows beside the model on the right. The plate is pushed to the left, and on mobile it stacks here as well. Drag the model to turn it; scroll or pinch to zoom.",
+        "height": 420,
+        "show_autorotate": false,
+        "show_download": false
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "9️⃣. How to add embedded media"
+      }
+    },
+    "// -------------------------------------- EMBEDDED MEDIA -------------------------------------- ",
+    {
+      "add_embed_media": {
+        "heading": "Embedded youtube, google drive or vimeo video",
+        "link": "https://youtu.be/8RdcvgMlp_k?si=EPBydYSLzf5Wiui0",
+        "caption": "A YouTube video, embedded from its published link — paste any YouTube or Vimeo “share” link and it becomes embeddable."
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded powerpoint presentation",
+        "link": "https://docs.google.com/presentation/d/1PY7Tv4w8A0Fslz_Ro0ekzSajddqtZZs8/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Add two or moreembeds in one row"
+      }
+    },
+    {
+      "add_embed_media_row": {
+        "heading": "Two columns",
+        "columns": 2,
+        "height": 300,
+        "add_embedded_media_to_row": [
+          {
+            "heading": "Left - embed a video from google drive",
+            "link": "https://drive.google.com/file/d/1cRnF1DJWg-r_VxHP1pDwz3_cNcjS20sd/view?usp=sharing",
+            "caption": "Two embeds share the row — each keeps its own caption and credit.",
+            "credit": "CWL Field Team"
+          },
+          {
+            "heading": "Right ",
+            "link": "https://docs.google.com/document/d/1-0XK4DKBMlU8tme74Q39wNrq8Cgs3Gj5lmynAxa7M6k/edit?usp=sharing",
+            "caption": "The column count is set on the row, not on each embed."
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Embed on the right, text on the left"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Aligned right -embed a google sheet",
+        "link": "https://docs.google.com/spreadsheets/d/1NPRMO3wn1q8os0_-MY7zPfSNal7nHymZOSQFycatYes/edit?usp=drive_link",
+        "caption": "The plate sits on the right.",
+        "align": "right",
+        "content_to_show_on_side_of_the_embed_when_aligned": "This paragraph keeps the left side. The embed and the text share the reading column, and stack with the embed first on phones."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Embed on the left, text on the right"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Aligned left",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScdwz6nZmYoWEzrh5FOZst34MVsNn2zbTf78ozWlnpKcF8XYw/viewform?embedded=true",
+        "caption": "The plate sits on the left.",
+        "align": "left",
+        "content_to_show_on_side_of_the_embed_when_aligned": "This paragraph keeps the right side. Both versions stay inside the same container and stack on smaller screens."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣0️⃣.How to add publications, datasets, and other outputs"
+      }
+    },
+    {
+      "add_paragraph": "There are two ways to place papers on a page. **Single publications** are named by title — a title already in data/outputs/publications.json brings its whole record with it, or write the fields yourself. A **publication collection** is a reusable set kept in data/outputs/collections/ and called by its file name, so one set can appear on many pages."
+    },
+    "// -------------------------------------- SELECTED OUTPUTS PUBLICATIONS,DATASETS,ETC -------------------------------------- ",
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Example: single publications"
+      }
+    },
+    {
+      "add_publication_or_more": {
+        "publication_section_title": "Adding single publications",
+        "publication_titles": [
+          {
+            "publication_title_to_include": "Deep Rhizosphere Carbon Retention Under Intensified Alpine Temperature Oscillations",
+            "tags": ["Alpine soils", "Carbon"]
+          },
+          {
+            "publication_title_to_include": "A single custom publication",
+            "year": 2026,
+            "where": "Journal of Custom Research",
+            "authors": "Michael Carter, Prof. Katherine Bennett",
+            "link": "assets/pdfs/custom-paper.pdf",
+            "tags": ["Methods", "Protocols"]
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Example: a reusable publication collection"
+      }
+    },
+    {
+      "add_publication_or_more": {
+        "publication_section_title": "Adding a publications collection",
+        "publications_collection_file_name": "conference_2026"
+      }
+    },
+    {
+      "add_heading": {
+        "level": 1,
+        "heading_text": "1️⃣1️⃣. Embedded media examples"
+      }
+    },
+    "// -------------------------------------- EMBEDDED MEDIA EXAMPLES -------------------------------------- ",
+    {
+      "add_embed_media": {
+        "heading": "Embedded powerpoint presentation",
+        "link": "https://docs.google.com/presentation/d/1PY7Tv4w8A0Fslz_Ro0ekzSajddqtZZs8/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded pdf document",
+        "link": "https://docs.google.com/document/d/1-0XK4DKBMlU8tme74Q39wNrq8Cgs3Gj5lmynAxa7M6k/edit?usp=sharing",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded google sheet",
+        "link": "https://docs.google.com/spreadsheets/d/1w7OkGHlF4oANxC6BtrgyVFPdxjTKzGGfLqlVSU7H7OA/edit?usp=sharing",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded word document",
+        "link": "https://docs.google.com/document/d/1eUHnVMLnP3dhcvOOeFx5f0q_SNo9j_HN/edit?usp=sharing&ouid=105897136171114256633&rtpof=true&sd=true",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded google calendar",
+        "link": "https://calendar.google.com/calendar/embed?src=academicvisualsinitiative%40gmail.com&ctz=Asia%2FTokyo",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded image",
+        "link": "https://drive.google.com/file/d/1p0QW_OEDNQ3CTfN5Jbny4BqhqH8nMNgx/view?usp=sharing",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded website",
+        "link": "https://example.com",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB"
+      }
+    },
+    {
+      "add_embed_media": {
+        "heading": "Embedded Google Form",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSd-pdAWE57m91W6mr8ED7El38l-MlN70yIhZSBri3BQ73w71Q/viewform?usp=dialog",
+        "caption": "A Google Slides deck, embedded from its published link — paste any Google Docs, Slides or Drive “share” link and it becomes embeddable.",
+        "credit": "CLEAR WATER LAB",
+        "height": 1050
+      }
+    },
+    {
+      "add_heading": {
+        "level": 2,
+        "heading_text": "Column options — left and right"
+      }
+    },
+    {
+      "add_paragraph": {
+        "text": "Every element accepts **column: left** or **column: right**. The pairs below show the same kind of element on each side."
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Cards"
+      }
+    },
+    {
+      "add_cards": {
+        "column": "left",
+        "columns": 2,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Left card",
+            "text": "A card in the left lane.",
+            "additional_info": "01",
+            "image_path": "assets/img/ph-07.jpg"
+          },
+          {
+            "individual_card_keyword": "Specimen",
+            "heading": "Second left card",
+            "text": "Two cards across the lane.",
+            "additional_info": "02"
+          }
+        ]
+      }
+    },
+    {
+      "add_cards": {
+        "column": "right",
+        "columns": 2,
+        "individual_card_details": [
+          {
+            "individual_card_keyword": "Instrument",
+            "heading": "Right card",
+            "text": "A card in the right lane.",
+            "additional_info": "03",
+            "image_path": "assets/img/ph-08.jpg"
+          },
+          {
+            "individual_card_keyword": "Dataset",
+            "heading": "Second right card",
+            "text": "Two cards across the lane.",
+            "additional_info": "04"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "People"
+      }
+    },
+    {
+      "add_people": {
+        "column": "left",
+        "heading": "Left people",
+        "people": [
+          {
+            "name": "Dr. Imani Wallace",
+            "position": "Principal Investigator",
+            "image_path": "assets/Images/team_and_alumni/imani_wallace.jpg"
+          },
+          {
+            "name": "Tomás Rivera",
+            "position": "Field Imaging Lead"
+          }
+        ]
+      }
+    },
+    {
+      "add_people": {
+        "column": "right",
+        "heading": "Right people",
+        "people": [
+          {
+            "name": "Dr. Hana Kim",
+            "position": "Data Curator",
+            "image_path": "assets/Images/team_and_alumni/hana_kim.jpg"
+          },
+          {
+            "name": "Michael Carter",
+            "position": "Field Lead"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "3D model and embed"
+      }
+    },
+    {
+      "add_3d_model": {
+        "column": "left",
+        "model_path": "assets/3d/aspirin.glb",
+        "heading": "Model on the left",
+        "model_caption": "3D in the left lane.",
+        "height": 320,
+        "show_autorotate": true,
+        "show_download": false
+      }
+    },
+    {
+      "add_embed_media": {
+        "column": "right",
+        "heading": "Embed on the right",
+        "link": "https://www.youtube.com/watch?v=8RdcvgMlp_k",
+        "caption": "A video in the right lane.",
+        "height": 320
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Publications"
+      }
+    },
+    {
+      "add_publication_or_more": {
+        "column": "left",
+        "heading": "Left publications",
+        "items": [
+          {
+            "title": "Drought legacies drive dissolved organic carbon flushes",
+            "authors": "Reyes, N., Whitfield, A.",
+            "venue": "Biogeochemistry",
+            "year": "2026"
+          }
+        ]
+      }
+    },
+    {
+      "add_publication_or_more": {
+        "column": "right",
+        "heading": "Right publications",
+        "items": [
+          {
+            "title": "An open protocol for porewater sampling",
+            "authors": "Reyes, N., Okafor, J.",
+            "venue": "MethodsX",
+            "year": "2023"
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Gallery"
+      }
+    },
+    {
+      "add_gallery": {
+        "column": "left",
+        "heading": "Gallery left",
+        "size": "4:3",
+        "images": [
+          {
+            "image_path": "assets/img/ph-08.jpg",
+            "image_caption": "A single plate fills the left lane."
+          }
+        ]
+      }
+    },
+    {
+      "add_gallery": {
+        "column": "right",
+        "heading": "Gallery right",
+        "size": "4:3",
+        "columns": 2,
+        "images": [
+          {
+            "image_path": "assets/img/ph-09.jpg",
+            "image_caption": "Two across the right lane."
+          },
+          {
+            "image_path": "assets/img/ph-10.jpg",
+            "image_caption": "Second plate."
+          }
+        ]
+      }
+    },
+    {
+      "add_heading": {
+        "level": 3,
+        "heading_text": "Slideshow"
+      }
+    },
+    {
+      "add_slideshow": {
+        "column": "left",
+        "heading": "Slideshow left",
+        "rotation_time_milliseconds": 3500,
+        "images": [
+          {
+            "image_path": "assets/img/ph-13.jpg",
+            "image_caption": "Slide one."
+          },
+          {
+            "image_path": "assets/img/ph-14.jpg",
+            "image_caption": "Slide two."
+          }
+        ]
+      }
+    },
+    {
+      "add_slideshow": {
+        "column": "right",
+        "heading": "Slideshow right",
+        "rotation_time_milliseconds": 3500,
+        "images": [
+          {
+            "image_path": "assets/img/ph-15.jpg",
+            "image_caption": "Slide one."
+          },
+          {
+            "image_path": "assets/img/ph-01.jpg",
+            "image_caption": "Slide two."
+          }
+        ]
+      }
+    }
+  ]
+}
