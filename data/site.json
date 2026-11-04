@@ -1,0 +1,57 @@
+{
+  "title": "Dr. Naomi Reyes — Environmental Chemist",
+  "description": "Environmental chemist working on carbon, nutrients and contaminants in soil, sediment and water.",
+  "favicon": "assets/images/portrait.jpg",
+  "header": {
+    "eyebrow": "Portfolio — 2026",
+    "name": "Dr. Naomi Reyes",
+    "affiliation": "Northfield University",
+    "meta": [
+      "Bristol, United Kingdom",
+      "naomi.reyes@northfield.ac.uk"
+    ],
+    "image_path": "assets/images/portrait.jpg",
+    "image_alt": "Portrait of Dr. Naomi Reyes",
+    "email": "naomi.reyes@northfield.ac.uk",
+    "cv": {
+      "label": "Download CV",
+      "file": "assets/cv.pdf"
+    },
+    "title": "Associate Professor of Environmental Chemistry"
+  },
+  "sections": [
+    "about",
+    "research",
+    "publications",
+    "teaching",
+    "contact"
+  ],
+  "footer": {
+    "links": [
+      {
+        "link": "mailto:naomi.reyes@northfield.ac.uk",
+        "icon": "mail"
+      },
+      {
+        "link": "https://scholar.google.com/",
+        "icon": "googlescholar-old"
+      },
+      {
+        "link": "https://orcid.org/",
+        "icon": "orcid"
+      },
+      {
+        "link": "https://github.com/",
+        "icon": "github"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://bsky.app/",
+        "icon": "bluesky"
+      }
+    ]
+  }
+}

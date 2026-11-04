@@ -1,0 +1,63 @@
+{
+  "id": "publications",
+  "number": "03",
+  "label": "Publications",
+  "heading": "Selected publications.",
+  "intro": "Recent papers, newest first.",
+
+  "add_content_to_page": [
+    {
+      "add_publication_or_more": {
+        "items": [
+          {
+            "title": "Drought legacies drive dissolved organic carbon flushes in upland catchments",
+            "authors": "Reyes, N., Whitfield, A. & Okafor, J.",
+            "venue": "Biogeochemistry",
+            "year": "2026"
+          },
+          {
+            "title": "Tyre-wear particles in urban river sediments: a mass-balance approach",
+            "authors": "Reyes, N. & Lindqvist, H.",
+            "venue": "Environmental Pollution",
+            "year": "2025"
+          },
+          {
+            "title": "Calibration drift in low-cost turbidity sensors: a six-month field trial",
+            "authors": "Reyes, N., Mendoza, C. & Whitfield, A.",
+            "venue": "Water Research",
+            "year": "2025"
+          },
+          {
+            "title": "Sediment storage of phosphorus after riparian restoration",
+            "authors": "Okafor, J. & Reyes, N.",
+            "venue": "Journal of Environmental Management",
+            "year": "2024"
+          },
+          {
+            "title": "An open protocol for porewater sampling in fine sediments",
+            "authors": "Reyes, N., Okafor, J. & Field, M.",
+            "venue": "MethodsX",
+            "year": "2023"
+          }
+        ]
+      }
+    },
+    {
+      "add_full_width_links": {
+        "heading": "Elsewhere",
+        "links": [
+          {
+            "label": "Full list on Google Scholar",
+            "link": "https://scholar.google.com/",
+            "note": "Papers"
+          },
+          {
+            "label": "Download the CV",
+            "link": "@cv",
+            "note": "PDF"
+          }
+        ]
+      }
+    }
+  ]
+}

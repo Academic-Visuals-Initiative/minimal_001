@@ -1,0 +1,43 @@
+{
+  "id": "teaching",
+  "number": "04",
+  "label": "Teaching",
+  "heading": "Teaching and talks.",
+  "intro": "The parts of environmental chemistry that are hard to fake: sampling design, calibration and uncertainty.",
+
+  "add_content_to_page": [
+    {
+      "add_list": {
+        "heading": "Courses",
+        "style": "number",
+        "add_items_to_list": [
+          "**Environmental Analytical Chemistry** — MSc, Northfield University (2024–)",
+          "**Field Methods for Catchment Science** — BSc, Northfield University (2023–)",
+          "**Data Skills for Environmental Scientists** — three-day workshop (2022–)"
+        ]
+      }
+    },
+    {
+      "add_a_timeline": {
+        "heading": "Recent talks",
+        "items_of_the_timeline": [
+          {
+            "timeline_item_date": "2026",
+            "timeline_item_title": "Keynote: the half-life of a measurement",
+            "timeline_item_text": "British Society for Environmental Chemistry, Cardiff."
+          },
+          {
+            "timeline_item_date": "2025",
+            "timeline_item_title": "Invited: what sediment cores forget",
+            "timeline_item_text": "Northfield Water Seminar."
+          },
+          {
+            "timeline_item_date": "2024",
+            "timeline_item_title": "Contributed: drift, and what to do about it",
+            "timeline_item_text": "European Geosciences Union, Vienna."
+          }
+        ]
+      }
+    }
+  ]
+}
