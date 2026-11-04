@@ -1,9 +1,0 @@
-{
-  "title": "Facilities",
-  "description": "Labs and field stations used by the group.",
-  "layout": "columns",
-  "add_content_to_page": [
-    { "add_paragraph": "The group works between a wet lab in Northfield and two field stations in the uplands. Instruments live in the lab; the messy part happens outside." },
-    { "add_image": { "column": "right", "image_path": "assets/img/ph-10.jpg", "image_alt": "", "image_caption": "Field station, upper catchment." } }
-  ]
-}
